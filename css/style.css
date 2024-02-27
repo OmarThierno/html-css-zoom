@@ -5,6 +5,78 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: aquamarine;
+img {
+  max-width: 100%;
+}
+
+/* Common */
+/* layout  */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  /* debug */
+  background-color: blue;
+}
+
+.container {
+  width: 100%;
+  background-color: blueviolet;
+}
+
+/* utilities */
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.overflow-y {
+  overflow-y: auto;
+}
+
+/* Main  */
+main {
+  height: calc(100% - 120px);
+  background-color: black;
+  padding: 200px 100px 50px;
+
+}
+
+.col {
+  width: calc(100% / 7);
+
+  /* debug  */
+  height: 200px;
+  background-color: brown;
+}
+
+.img-user {
+  object-fit: cover;
+  object-position: center;
+}
+
+div.name-user {
+  color: white;
+  bottom: 20px;
+  left: 0;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  height: 120px;
 }
