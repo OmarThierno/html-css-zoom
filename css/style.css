@@ -14,13 +14,10 @@ img {
 .wrapper {
   width: 100%;
   height: 100vh;
-  /* debug */
-  background-color: blue;
 }
 
 .container {
   width: 100%;
-  background-color: blueviolet;
 }
 
 /* utilities */
@@ -48,6 +45,17 @@ img {
   overflow-y: auto;
 }
 
+.direction-column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mrg-l-r {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* Main  */
 main {
   height: calc(100% - 120px);
@@ -61,7 +69,6 @@ main {
 
   /* debug  */
   height: 200px;
-  background-color: brown;
 }
 
 .img-user {
@@ -77,6 +84,51 @@ div.name-user {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-footer {
+/* Footer  */
+.footer {
   height: 120px;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(42, 42, 42);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.angle-up {
+  font-size: 20px;
+  color: white;
+}
+
+.left,
+.right {
+  width: 20%;
+}
+
+.left {
+  align-items: center;
+}
+
+.right {
+  justify-content: end;
+}
+
+.text-footer {
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 5px;
+}
+
+.text-right {
+  background-color: rgb(123, 123, 123);
+  color: red;
+  font-size: 1.6rem;
+  height: 100%;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
